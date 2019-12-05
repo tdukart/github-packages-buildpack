@@ -14,4 +14,4 @@ source $BP_DIR/lib/environment.sh
 export_env_dir "$ENV_DIR"
 
 echo "" >> $BUILD_DIR/.npmrc
-echo "//registry.npmjs.org/:_authToken=$NPM_AUTH_TOKEN" >> $BUILD_DIR/.npmrc
+echo "//npm.pkg.github.com/:_authToken=$GITHUB_AUTH_TOKEN" >> $BUILD_DIR/.npmrc

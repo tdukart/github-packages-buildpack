@@ -1,4 +1,4 @@
 #!/bin/sh
 
-echo "zeke/npm-buildpack"
+echo "tdukart/github-packages-buildpack"
 exit 0
